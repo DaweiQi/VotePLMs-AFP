@@ -90,7 +90,7 @@ Mcc = []
 Pre = []
 F_score = []
 # 10 times 10-fold CV
-for i in range(1):
+for i in range(10):
     print('The %d times 10-fold CV...' % i)
     cv = KFold(n_splits=10, shuffle=True)
     proba_y = []
